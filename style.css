@@ -1,0 +1,86 @@
+*{
+    font-family: "Cairo play" cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(249, 204, 96);
+}
+.container{
+    background-image: url("https://images.unsplash.com/photo-1555532538-dcdbd01d373d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=964&q=80");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.to-do{
+    height: 60%;
+    width: 60%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.158);
+}
+.input-div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ul-div{
+    width: 90%;
+    margin: auto;
+}
+#input{
+    width: 70%;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(249, 204, 96);
+    background-color: rgba(0, 0, 0, 0.589);
+
+}
+#ekle{
+    width: 10%;
+    height: 40px;
+    color: rgb(249, 204, 96);
+    background-color: rgba(0, 0, 0, 0.589);
+    border: none;
+    margin-left: -1px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.list{
+    width: 80%;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.list a{
+    text-decoration: none;
+
+}
+.list i{
+    color:rgb(198, 239, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.d-none{
+    display: none;
+}
