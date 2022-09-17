@@ -19,7 +19,10 @@ const createValue = () => {
 
 const creatLi = () => {
   const input = document.getElementById("input");
-  createValue();
+  
+  if(inputEl.value){
+    createValue()
+  }
   inputEl.value=""
 };
 
